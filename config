@@ -1,0 +1,171 @@
+adplug.surround 1
+adplug.use_ken 0
+ape.strip_apev2 1
+ape.strip_id3v2 1
+ape.write_apev2 1
+ape.write_id3v2 1
+artwork.cache.period 48
+artwork.cache_reset_time 1464428504
+artwork.enable_albumartorg 1
+artwork.enable_embedded 1
+artwork.enable_lastfm 1
+artwork.enable_localfolder 1
+artwork.enable_musicbrainz 1
+artwork.enable_wos 0
+artwork.filemask *cover*.jpg;*front*.jpg;*folder*.jpg;*cover*.png;*front*.png;*folder*.png
+artwork.missing_artwork 1
+artwork.nocover_path 
+artwork.scale_towards_longer 1
+artwork.scaled.cache_reset_time 1464428504
+cli_add_playlist_name Default
+cli_add_to_specific_playlist 1
+close_send_to_tray 1
+deadbeef_version 0.7.2
+ffmpeg.enable_all_exts 1
+ffmpeg.extensions aa3;oma;ac3;vqf;amr;opus;tak;dsf;dff
+filechooser.lastdir file:///home/raven/Downloads/Music/Collection
+gtkui.action_separators 1
+gtkui.columns.playlist [{"title":"Title","id":"-1","format":"%title%","size":"577","align":"0","color_override":"0","color":"#ff000000"},{"title":"❤","id":"-1","format":"$ifequal([%loved%], 1,❤,)","size":"32","align":"2","color_override":"0","color":"#ff5c616c"},{"title":"Rating","id":"-1","format":"$ifequal([%rating%], 5,★★★★★,)$ifequal([%rating%], 4,★★★★☆,)$ifequal([%rating%], 3,★★★☆☆,)$ifequal([%rating%], 2,★★☆☆☆,)$ifequal([%rating%], 1,★☆☆☆☆,)$ifequal([%rating%], 0,☆☆☆☆☆,)","size":"120","align":"1","color_override":"0","color":"#ff5c616c"},{"title":"Artist / Album","id":"-1","format":"%artist% - %album%","size":"431","align":"0","color_override":"0","color":"#ff000000"}]
+gtkui.custom_tray_icon deadbeef_tray_icon
+gtkui.delete_files_ask 1
+gtkui.disable_seekbar_overlay 0
+gtkui.embolden_current_track 1
+gtkui.embolden_selected_tracks 0
+gtkui.italic_current_track 0
+gtkui.italic_selected_tracks 1
+gtkui.layout.0.6.2 vbox expand="0 1" fill="1 1" homogeneous=0 {hbox expand="0 1 0" fill="1 1 1" homogeneous=0 {playtb {} seekbar {} volumebar {} } tabbed_playlist hideheaders=0 width=1361 {} } 
+gtkui.mmb_delete_playlist 1
+gtkui.name_playlist_from_folder 1
+gtkui.override_bar_colors 1
+gtkui.override_tabstrip_colors 1
+gtkui.pltbrowser.highlight_curr_plt 1
+gtkui.pltbrowser.mmb_delete_playlist 1
+gtkui.statusbar.visible 1
+gtkui.sync 0
+gtkui.tabscroll 0
+gtkui.tabstrip_embolden_playing 1
+gtkui.tabstrip_italic_selected 1
+gtkui.titlebar_playing_tf %artist% - %title% - DeaDBeeF-%_deadbeef_version%
+gtkui.titlebar_stopped_tf DeaDBeeF-%_deadbeef_version%
+gtkui.tray_volume_sensitivity 1
+gtkui.unicode_playstate 0
+gui_plugin GTK3
+hotkey.key01 "Ctrl f" 0 0 find
+hotkey.key02 "Ctrl o" 0 0 open_files
+hotkey.key03 "Ctrl q" 0 0 quit
+hotkey.key04 "Ctrl n" 0 0 new_playlist
+hotkey.key05 "Ctrl a" 0 0 select_all
+hotkey.key06 "Escape" 0 0 deselect_all
+hotkey.key07 "Ctrl m" 0 0 toggle_stop_after_current
+hotkey.key08 "Ctrl j" 0 0 jump_to_current_track
+hotkey.key09 "F1" 0 0 help
+hotkey.key10 "Delete" 1 0 remove_from_playlist
+hotkey.key11 "Ctrl w" 0 0 remove_current_playlist
+hotkey.key12 "Return" 0 0 play
+hotkey.key13 "Ctrl p" 0 0 toggle_pause
+hotkey.key14 "Alt 1" 0 0 playlist1
+hotkey.key15 "Alt 2" 0 0 playlist2
+hotkey.key16 "Alt 3" 0 0 playlist3
+hotkey.key17 "Alt 4" 0 0 playlist4
+hotkey.key18 "Alt 5" 0 0 playlist5
+hotkey.key19 "Alt 6" 0 0 playlist6
+hotkey.key20 "Alt 7" 0 0 playlist7
+hotkey.key21 "Alt 8" 0 0 playlist8
+hotkey.key22 "Alt 9" 0 0 playlist9
+hotkey.key23 "Alt 0" 0 0 playlist10
+hotkey.key24 "Ctrl Super comma" 0 1 prev
+hotkey.key25 "x" 0 0 play
+hotkey.key26 "Ctrl Super period" 0 1 toggle_pause
+hotkey.key27 "v" 0 0 stop
+hotkey.key28 "Ctrl Super slash" 0 1 next
+hotkey.key29 "n" 0 0 playback_random
+hotkey.key30 "Ctrl k" 0 0 toggle_stop_after_album
+hotkey.key31 "Ctrl Super KP_End" 3 1 rating_rate1
+hotkey.key32 "Ctrl Super KP_Down" 3 1 rating_rate2
+hotkey.key33 "Ctrl Super KP_Next" 3 1 rating_rate3
+hotkey.key34 "Ctrl Super KP_Left" 3 1 rating_rate4
+hotkey.key35 "Ctrl Super KP_Begin" 3 1 rating_rate5
+hotkey.key36 "Ctrl Super KP_Insert" 3 1 rating_rate0
+hotkey.key37 "Ctrl Super KP_Right" 3 1 loveit
+hotkey.key38 "Ctrl Super KP_Home" 3 1 fav_it
+hotkey.key39 "Ctrl Super KP_Up" 3 1 unfav_it
+hotkeys_created 1
+ignore_archives 1
+junk.enable_cp1251_detection 1
+junk.enable_cp936_detection 1
+junk.enable_shift_jis_detection 1
+lastfm.disable_np 0
+lastfm.enable 1
+lastfm.login revanth001reva
+lastfm.mbid 0
+lastfm.password azwarulz
+lastfm.prefer_album_artist 1
+lastfm.scrobbler_url http://post.audioscrobbler.com
+lastfm.submit_tiny_tracks 0
+loveit.key loved
+loveit.val 1
+mainwin.geometry.h 635
+mainwin.geometry.maximized 0
+mainwin.geometry.w 1391
+mainwin.geometry.x 301
+mainwin.geometry.y 238
+mp3.backend 0
+mp3.disable_gapless 1
+mp3.id3v1_encoding iso8859-1
+mp3.id3v2_version 3
+mp3.strip_apev2 1
+mp3.strip_id3v1 1
+mp3.strip_id3v2 1
+mp3.write_apev2 1
+mp3.write_id3v1 1
+mp3.write_id3v2 1
+network.http_user_agent deadbeef
+network.proxy.port 8080
+network.proxy.type HTTP
+notify.albumart 1
+notify.albumart_size 64
+notify.enable 1
+notify.format_content_tf %artist% - %album%
+notify.format_title_tf %title%
+playback.loop 0
+playback.order 0
+playback.volume 0.0000000
+playlist.current 0
+playlist.cursor.0 1
+playlist.cursor.1 7
+playlist.scroll.0 0
+playlist.scroll.1 0
+playlist.scroll.cursorfollowplayback 1
+playlist.tab.00000 Default
+playlist.tab.00001 Music
+prefwin.geometry.h 645
+prefwin.geometry.w 1019
+prefwin.geometry.x 487
+prefwin.geometry.y 233
+replaygain_mode 1
+replaygain_scale 1
+resume.paused 0
+resume.playlist 0
+resume.position 195.04901
+resume.track 1
+resume_last_session 1
+shellexec.0 xdg-open %D:Open Folder:open_folder:remote,local,single,
+shellexec.1 cp %F /home/raven/Downloads/Music/Collection/:FavIt:fav_it:remote,local,single,multiple,
+shellexec.2 rm /home/raven/Downloads/Music/Collection/%f:UnFavIt:unfav_it:remote,local,single,multiple,
+shellexec.3 kid3-cli -c "set rating 0" %F:Rate 0:rate_0:remote,local,single,multiple,
+shellexec.4 kid3-cli -c "set rating 1" %F:Rate 1:rate_1:remote,local,single,multiple,
+shellexec.5 kid3-cli -c "set rating 2" %F:Rate 2:rate_2:remote,local,single,multiple,
+shellexec.6 kid3-cli -c "set rating 3" %F:Rate 3:rate_3:remote,local,single,multiple,
+shellexec.7 kid3-cli -c "set rating 4" %F:Rate 4:rate_4:remote,local,single,multiple,
+shellexec.8 kid3-cli -c "set rating 5" %F:Rate 5:rate_5:remote,local,single,multiple,
+streamer.16_to_24 1
+streamer.8_to_16 1
+trkproperties.geometry.h 677
+trkproperties.geometry.w 519
+trkproperties.geometry.x 598
+trkproperties.geometry.y 266
+vfs_curl.emulate_trackchange 1
+wv.strip_apev2 1
+wv.strip_id3v1 1
+wv.write_apev2 1
+wv.write_id3v1 1
